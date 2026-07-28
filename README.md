@@ -16,7 +16,7 @@ Built as an single-header C library with native Python bindings, Twell is perfec
 * **Viscous fluid decay**: Exponential velocity decay modeling natural inertial scrolling (`UIScrollView` mechanics).
 * **Kinematic property drivers**: Link scalar properties together (e.g. map scroll offset to header scale or background blur) with linear, ease-in, or ease-out curves.
 * **Unit-aware resting thresholds**: Automatic resting epsilons for `Pixels`, `Normalized`, `Degrees`, and `Radians` to save CPU cycles when animations settle.
-* **Spatial 3D geometry**: Built-in 3D transform matrices ([`CATransform3D`](docs/ios-to-twell.md#6-catransform3d) layout compatible), quaternions, SLERP, and perspective projection math (`m34`).
+* **Spatial 3D geometry**: Built-in 3D transform matrices ([`CATransform3D`](docs/ios-to-twell.md#catransform3d) layout compatible), quaternions, SLERP, and perspective projection math (`m34`).
 * **Also supports Python**: Just `import twell` for object-oriented Python bindings.
 
 ---
