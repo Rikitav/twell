@@ -93,19 +93,6 @@ Install `twell` directly into your Python environment:
 pip install .
 ```
 
-To build production wheel (`.whl`) and source distribution (`.tar.gz`) packages:
-
-```bash
-python -m build
-```
-
-#### Native Library Resolution Strategy
-The production Python package resolves the native Twell shared library dynamically without runtime compilation:
-1. Environment variable `TWELL_LIBRARY_PATH` (if specified).
-2. Inside the installed `twell` package directory (compiled `_twell` extension or `twell.dll` / `libtwell.so` / `libtwell.dylib`).
-3. Repository root directory.
-4. System library paths via `ctypes.util.find_library("twell")`.
-
 #### Usage Example
 
 Import `twell` alongside your renderer (e.g., Pygame, Raylib, or Arcade):
