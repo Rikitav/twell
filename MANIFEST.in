@@ -1,0 +1,5 @@
+include README.md
+include twell.h
+include twell/twell.c
+include twell/py.typed
+recursive-include docs *.md

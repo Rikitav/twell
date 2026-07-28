@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "twell"
+version = "1.0.0"
+description = "A tiny, embeddable physics engine for remarkably fluid graphical user interfaces."
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [
+    { name = "nsdkinx" }
+]
+keywords = ["physics", "animation", "gui", "ui", "graphics", "coreanimation"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Strict",
+    "Programming Language :: C",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: User Interfaces",
+]
+
+[project.urls]
+Homepage = "https://github.com/nsdkinx/twell"
+Documentation = "https://github.com/nsdkinx/twell#readme"
