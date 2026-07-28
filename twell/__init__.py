@@ -8,12 +8,11 @@ import ctypes.util
 import glob
 import os
 import platform
-import sys
 from dataclasses import dataclass
 from enum import IntEnum
 from typing import List, Optional, Tuple, Union
 
-__version__ = "0.1.0"
+__version__ = "1.1.0"
 
 
 def _load_library() -> ctypes.CDLL:

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "twell"
-version = "1.0.0"
+version = "1.1.0"
 description = "A tiny, embeddable physics engine for remarkably fluid graphical user interfaces."
 readme = "README.md"
 requires-python = ">=3.8"
